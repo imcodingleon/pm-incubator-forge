@@ -1,4 +1,5 @@
 export const ArraySliceExample = () => {
+    // Slice는 Month 기간 지정 설정에 쓰일 수 있다
     let number_array: number[] = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
 
     let slice_array: number[] = number_array.slice(3, 7);
